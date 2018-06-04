@@ -1,0 +1,27 @@
+{
+    "bridge": {
+        "name": "Jack's PC",
+        "username": "CC:22:3D:E3:CE:31",
+        "port": 51826,
+        "pin": "123-45-678"
+    },
+    
+    "description": "This is an example configuration file with one fake accessory and one fake platform. You can use this as a template for creating your own configuration file containing devices you actually own.",
+
+    "accessories": [
+    
+    ],
+
+    "platforms": [
+        {
+          "platform": "HomeAssistant",
+          "name": "HomeAssistant",
+          "host": "http://127.0.0.1:8123",
+          "password": "0800",
+          "supported_types": ["automation", "binary_sensor", "climate", "cover", "device_tracker", "fan", "group", "input_boolean", "light", "lock", "media_player", "remote", "scene", "script", "sensor", "switch", "vacuum"],
+          "default_visibility": "visible",
+          "logging": true,
+          "verify_ssl": false
+        }
+      ]
+}
